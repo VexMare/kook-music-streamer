@@ -12,7 +12,7 @@
   <a href="https://space.bilibili.com/365374856" target="_blank">哔哩哔哩</a>
 </p>
 
-# 🎵 kook-music-streamer 打包版使用说明
+# 🎵 kook-music-streamer
 
 ---
 
