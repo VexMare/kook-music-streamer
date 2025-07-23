@@ -1,18 +1,18 @@
-<p align="center">
-  <a href="https://github.com/NightmaresNightmares/kook-music-streamer" target="_blank"><img src="https://img.shields.io/badge/GitHub-开源项目-black?logo=github" alt="GitHub"></a>
-  &nbsp;
-  <a href="https://www.douyin.com/user/MS4wLjABAAAADKa8egW-VGLmOg0sqjN-9Vf8wFZRfJwPpzVerdVKzlQ4WK_NvSLjSj3tzdUXfq-k?from_tab_name=main" target="_blank"><img src="https://img.shields.io/badge/抖音-短视频平台-ff69b4?logo=tiktok" alt="抖音"></a>
-  &nbsp;
-  <a href="https://space.bilibili.com/365374856" target="_blank"><img src="https://img.shields.io/badge/哔哩哔哩-Bilibili-00A1D6?logo=bilibili" alt="Bilibili"></a>
+<p align   对齐="center"   “中心”>
+  <a href="https://github.com/NightmaresNightmares/kook-music-streamer" target   目标="_blank"   “平等”><img src="https://img.shields.io/badge/GitHub-开源项目-black?logo=github" alt="GitHub"   “GitHub”></a>
+  &nbsp;   ,   ,
+  <a href="https://www.douyin.com/user/MS4wLjABAAAADKa8egW-VGLmOg0sqjN-9Vf8wFZRfJwPpzVerdVKzlQ4WK_NvSLjSj3tzdUXfq-k?from_tab_name=main" target   目标="_blank"   “平等”><img src="https://img.shields.io/badge/抖音-短视频平台-ff69b4?logo=tiktok" alt="抖音"></a>
+  &nbsp;   ,   ,
+  <a href="https://space.bilibili.com/365374856" target   目标="_blank"   “平等”><img src="https://img.shields.io/badge/哔哩哔哩-Bilibili-00A1D6?logo=bilibili" alt="Bilibili"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/NightmaresNightmares/kook-music-streamer" target="_blank">GitHub 开源地址</a> |
-  <a href="https://www.douyin.com/user/MS4wLjABAAAADKa8egW-VGLmOg0sqjN-9Vf8wFZRfJwPpzVerdVKzlQ4WK_NvSLjSj3tzdUXfq-k?from_tab_name=main" target="_blank">抖音</a> |
+<p align   对齐="center"   “中心”>
+  <a href="https://github.com/NightmaresNightmares/kook-music-streamer" target   目标="_blank"   “平等”>GitHub 开源地址</a> |
+  <a href="https://www.douyin.com/user/MS4wLjABAAAADKa8egW-VGLmOg0sqjN-9Vf8wFZRfJwPpzVerdVKzlQ4WK_NvSLjSj3tzdUXfq-k?from_tab_name=main" target="_blank">抖音</a> |抖音 |
   <a href="https://space.bilibili.com/365374856" target="_blank">哔哩哔哩</a>
 </p>
 
-# 🎵 kook-music-streamer 打包版使用说明
+# 🎵 kook-music-streamer 
 
 ---
 
