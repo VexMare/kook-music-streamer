@@ -151,31 +151,6 @@ async def play_playlist(msg: Message, *, playlist_input: str):
         print("[STEP][ERROR][album] 点歌单异常:", e)
         traceback.print_exc()
 
-@bot.command(name='list', prefixes=['.'])
-async def show_list(msg: Message):
-    print(f"[CMD] .list triggered by {msg.author_id} in guild {msg.ctx.guild.id}")
-    try:
-        print("[STEP] 实例化 Player 并获取队列")
-        player = kookvoice.Player(str(msg.ctx.guild.id))
-        music_list = player.list()
-        print(f"[STEP] 当前播放队列: {music_list}")
-        if not music_list or not isinstance(music_list, list):
-            await msg.ctx.channel.send('当前播放队列为空')
-            print("[STEP][INFO] 当前播放队列为空")
-            return
-        music_list = [item for item in music_list if item]
-        if not music_list:
-            await msg.ctx.channel.send('当前播放队列为空')
-            print("[STEP][INFO] 当前播放队列为空")
-            return
-        text = '\n'.join([f'{idx+1}. {item.get("file", "-")}' for idx, item in enumerate(music_list) if item and isinstance(item, dict)])
-        await msg.ctx.channel.send(f'当前播放队列：\n{text}')
-        print(f"[STEP][SUCCESS] 队列已发送")
-    except Exception as e:
-        await msg.ctx.channel.send(f'获取播放队列失败: {e}')
-        print("[STEP][ERROR][list] 获取播放队列异常:", e)
-        traceback.print_exc()
-
 @bot.command(name='join', prefixes=['.'])
 async def join_channel(msg: Message):
     print(f"[CMD] .join triggered by {msg.author_id} in guild {msg.ctx.guild.id}")

@@ -92,7 +92,8 @@ class Player:
         PlayHandler(self.guild_id, self.token).start()
 
     def add_music(self, music: str, extra_data: dict = {}):
-        """添加音乐到播放列表
+        """
+        添加音乐到播放列表
             :param str music: 音乐文件路径或音乐链接
             :param dict extra_data: 可以在这里保存音乐信息
         """
@@ -133,7 +134,8 @@ class Player:
             logger.info(f'停止播放，服务器: {self.guild_id}')
 
     def skip(self, skip_amount: int = 1):
-        '''跳过指定数量的歌曲
+        '''
+        跳过指定数量的歌曲
             :param amount int: 要跳过的歌曲数量,默认为一首
         '''
         global guild_status
@@ -158,7 +160,8 @@ class Player:
             ...
 
     def seek(self, music_seconds: int):
-        '''跳转至歌曲指定位置
+        '''
+        跳转至歌曲指定位置
             :param music_seconds int: 所要跳转到歌曲的秒数
         '''
         global play_list
