@@ -247,8 +247,7 @@ KOOK_Audio/
 ## 📞 联系方式
 
 - 项目主页：[GitHub Repository](https://github.com/VexMare/kook-music-streamer)
-- 问题反馈：[Issues](../../issues)
-- 邮箱：your-email@example.com
+- 邮箱：chixiaotao@foxmail.com
 
 ---
 
